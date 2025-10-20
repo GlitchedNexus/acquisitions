@@ -1,0 +1,2 @@
+{"level":"info","message":"Hello from Acquisitons API!","service":"aquisitions-api","timestamp":"2025-10-20T05:45:00.528Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [20/Oct/2025:05:45:00 +0000] \"GET / HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:143.0) Gecko/20100101 Firefox/143.0\"","service":"aquisitions-api","timestamp":"2025-10-20T05:45:00.534Z"}
