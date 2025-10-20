@@ -32,3 +32,8 @@
 {"level":"info","message":"User contact@raghavawasthi.dev created successfully","service":"aquisitions-api","timestamp":"2025-10-20T07:29:11.171Z"}
 {"level":"info","message":"User registered successfully: contact@raghavawasthi.dev","service":"aquisitions-api","timestamp":"2025-10-20T07:29:11.177Z"}
 {"level":"info","message":"::1 - - [20/Oct/2025:07:29:11 +0000] \"POST /api/auth/sign-up?name=&email= HTTP/1.1\" 201 112 \"-\" \"HTTPie\"","service":"aquisitions-api","timestamp":"2025-10-20T07:29:11.179Z"}
+{"level":"info","message":"User contact@raghavawasthi.dev authenticated successfully","service":"aquisitions-api","timestamp":"2025-10-20T07:46:09.679Z"}
+{"level":"info","message":"User signed in successfully: contact@raghavawasthi.dev","service":"aquisitions-api","timestamp":"2025-10-20T07:46:09.683Z"}
+{"level":"info","message":"::1 - - [20/Oct/2025:07:46:09 +0000] \"POST /api/auth/sign-in?name=&email= HTTP/1.1\" 200 124 \"-\" \"HTTPie\"","service":"aquisitions-api","timestamp":"2025-10-20T07:46:09.685Z"}
+{"level":"info","message":"User signed out successfully","service":"aquisitions-api","timestamp":"2025-10-20T07:47:10.921Z"}
+{"level":"info","message":"::1 - - [20/Oct/2025:07:47:10 +0000] \"POST /api/auth/sign-out?name=&email= HTTP/1.1\" 200 42 \"-\" \"HTTPie\"","service":"aquisitions-api","timestamp":"2025-10-20T07:47:10.922Z"}
