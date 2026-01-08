@@ -8,19 +8,19 @@ This repository serves as both a functional API and a reference implementation f
 
 ## Key Capabilities
 
-* **RESTful API** implemented with Express using a modular, feature-based architecture.
-* **Strongly typed persistence layer** using Drizzle ORM with Neon Postgres.
-* **Authentication and authorization** via JWT with role-based access control.
-* **Schema-first validation** using Zod for request and response contracts.
-* **Runtime security enforcement** with Arcjet, including:
+- **RESTful API** implemented with Express using a modular, feature-based architecture.
+- **Strongly typed persistence layer** using Drizzle ORM with Neon Postgres.
+- **Authentication and authorization** via JWT with role-based access control.
+- **Schema-first validation** using Zod for request and response contracts.
+- **Runtime security enforcement** with Arcjet, including:
+  - Bot detection
+  - Rate limiting
+  - Email and session validation
 
-  * Bot detection
-  * Rate limiting
-  * Email and session validation
-* **Automated CI/CD pipeline** using GitHub Actions.
-* **Containerized runtime** using Docker, with optional Kubernetes manifests.
-* **Structured logging and health endpoints** for observability.
-* **Comprehensive automated tests** covering business logic and API behavior.
+- **Automated CI/CD pipeline** using GitHub Actions.
+- **Containerized runtime** using Docker, with optional Kubernetes manifests.
+- **Structured logging and health endpoints** for observability.
+- **Comprehensive automated tests** covering business logic and API behavior.
 
 ---
 
@@ -71,11 +71,11 @@ Neon Postgres
 
 ### Design Decisions
 
-* **Feature-based module boundaries** reduce coupling and improve maintainability.
-* **Type-safe ORM layer** ensures compile-time correctness across queries and models.
-* **Stateless API design** enables horizontal scaling behind a load balancer.
-* **Middleware-driven cross-cutting concerns** (auth, validation, security) ensure consistent enforcement.
-* **Container-first approach** guarantees parity between local, CI, and production environments.
+- **Feature-based module boundaries** reduce coupling and improve maintainability.
+- **Type-safe ORM layer** ensures compile-time correctness across queries and models.
+- **Stateless API design** enables horizontal scaling behind a load balancer.
+- **Middleware-driven cross-cutting concerns** (auth, validation, security) ensure consistent enforcement.
+- **Container-first approach** guarantees parity between local, CI, and production environments.
 
 ---
 
@@ -153,18 +153,18 @@ This enforces **reproducibility**, **regression prevention**, and **deployment s
 
 ## Security Model
 
-* JWT-based authentication with expiration and role enforcement.
-* Arcjet runtime protections for abuse prevention.
-* Environment-isolated configuration for development, staging, and production.
-* No secrets committed to source control.
+- JWT-based authentication with expiration and role enforcement.
+- Arcjet runtime protections for abuse prevention.
+- Environment-isolated configuration for development, staging, and production.
+- No secrets committed to source control.
 
 ---
 
 ## Observability and Reliability
 
-* Structured Winston logs with timestamps and severity levels.
-* Health and metrics endpoints for monitoring and uptime checks.
-* Designed to integrate with Prometheus, Grafana, or hosted observability platforms.
+- Structured Winston logs with timestamps and severity levels.
+- Health and metrics endpoints for monitoring and uptime checks.
+- Designed to integrate with Prometheus, Grafana, or hosted observability platforms.
 
 ---
 
@@ -179,9 +179,9 @@ docker run -p 8080:8080 acquisitions-api
 
 Optional Kubernetes manifests define:
 
-* Deployments for stateless scaling
-* Services for internal networking
-* Ingress for external access
+- Deployments for stateless scaling
+- Services for internal networking
+- Ingress for external access
 
 ---
 
@@ -189,13 +189,13 @@ Optional Kubernetes manifests define:
 
 This project demonstrates competencies commonly evaluated in **Backend and DevOps internships**, including:
 
-* **API Design**: Clean REST interfaces, validation, and error handling
-* **Data Modeling**: Relational schema design with migrations
-* **Security**: Authentication, authorization, and runtime protections
-* **Testing**: Unit and integration coverage
-* **DevOps**: CI/CD automation, containerization, environment parity
-* **Production Readiness**: Logging, health checks, and scalability considerations
-* **Code Quality**: Modular structure, type safety, and maintainable abstractions
+- **API Design**: Clean REST interfaces, validation, and error handling
+- **Data Modeling**: Relational schema design with migrations
+- **Security**: Authentication, authorization, and runtime protections
+- **Testing**: Unit and integration coverage
+- **DevOps**: CI/CD automation, containerization, environment parity
+- **Production Readiness**: Logging, health checks, and scalability considerations
+- **Code Quality**: Modular structure, type safety, and maintainable abstractions
 
 ---
 
