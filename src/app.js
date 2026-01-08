@@ -7,7 +7,7 @@ import cookieParser from 'cookie-parser';
 import authRoutes from '#routes/auth.routes.js';
 import userRoutes from '#routes/users.routes.js';
 import securityMiddleware from '#middleware/security.middleware.js';
-import { error } from 'winston';
+// import { error } from 'winston';
 
 const app = express();
 
